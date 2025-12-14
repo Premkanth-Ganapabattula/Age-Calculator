@@ -3,77 +3,95 @@
 <head>
   <meta charset="UTF-8" />
 
-  <title>Age Calculator Online – Calculate Exact Age in Years, Months & Days</title>
+  <title>Premkanth Age Calculator – Exact Age in Years, Months, Days</title>
+
+  <!-- Google Verification -->
+  <meta name="google-site-verification" content="kLeGt4Dp71GFtTFWrpP67urqz5zhHtUKBpNjBMTM6QI" />
 
   <!-- SEO Meta -->
-  <meta name="google-site-verification" content="kLeGt4Dp71GFtTFWrpP67urqz5zhHtUKBpNjBMTM6QI" />
-  <meta name="description" content="Free online age calculator to calculate your exact age in years, months, and days. Simple, fast and accurate." />
-  <meta name="keywords" content="prems age calculator, calculate age online, dob calculator, age finder" />
-  <meta name="author" content="premkanth" />
+  <meta name="description" content="Premkanth Age Calculator is an advanced free tool to calculate age in years, months, days, weeks, hours and minutes." />
+  <meta name="keywords" content="premkanth age calculator, age calculator online, calculate age in days, dob calculator" />
+  <meta name="author" content="Premkanth Ganapabattula" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Age Calculator Online" />
-  <meta property="og:description" content="Calculate your exact age instantly using our free age calculator." />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://yourdomain.com/assets/images/og-image.png" />
 
   <!-- Canonical -->
   <link rel="canonical" href="https://premkanth-ganapabattula.github.io/Age-Calculator/" />
 
-
-  <!-- Favicon -->
-  <link rel="icon" href="assets/icons/favicon.ico" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Premkanth Age Calculator" />
+  <meta property="og:description" content="Calculate your exact age instantly with Premkanth Age Calculator." />
+  <meta property="og:type" content="website" />
 
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header>
-    <h1>Age Calculator</h1>
-    <p>Calculate your exact age in years, months, and days</p>
-  </header>
 
-  <main>
-    <section class="calculator">
-      <label for="dob">Select your Date of Birth</label>
-      <input type="date" id="dob" />
+<header>
+  <h1>Premkanth Age Calculator</h1>
+  <p>Advanced age calculator with next birthday, zodiac & total age</p>
+</header>
 
-      <button onclick="calculateAge()">Calculate Age</button>
+<main>
+  <section class="calculator">
+    <label for="dob">Select your Date of Birth</label>
+    <input type="date" id="dob" />
+    <button onclick="calculateAge()">Calculate Age</button>
+    <div id="result"></div>
+  </section>
 
-      <div id="result"></div>
-    </section>
+  <section class="content">
+    <h2>About Premkanth Age Calculator</h2>
+    <p>
+      Premkanth Age Calculator is a free advanced tool that calculates your
+      exact age in years, months, days, weeks, hours, and minutes.
+    </p>
 
-    <!-- SEO Content -->
-    <section class="content">
-      <h2>How to Use the Age Calculator</h2>
-      <p>
-        Enter your date of birth and click on the calculate button. The age calculator
-        will instantly display your exact age in years, months, and days.
-      </p>
+    <h2>Features</h2>
+    <ul>
+      <li>Exact age calculation</li>
+      <li>Total age in days, weeks, hours & minutes</li>
+      <li>Next birthday countdown</li>
+      <li>Zodiac sign detection</li>
+      <li>Copy & share results</li>
+    </ul>
 
-      <h2>Why Use Our Age Calculator?</h2>
-      <ul>
-        <li>100% accurate results</li>
-        <li>Fast and easy to use</li>
-        <li>No login required</li>
-        <li>Works on mobile and desktop</li>
-      </ul>
+    <h2>Frequently Asked Questions</h2>
+    <h3>Is Premkanth Age Calculator accurate?</h3>
+    <p>Yes, it calculates age based on real calendar dates.</p>
 
-      <h2>Frequently Asked Questions</h2>
+    <h3>Is this tool free?</h3>
+    <p>Yes, it is completely free to use.</p>
+  </section>
+</main>
 
-      <h3>Is this age calculator accurate?</h3>
-      <p>Yes, it calculates age based on your date of birth and the current date.</p>
+<footer>
+  <p>© 2025 Premkanth Age Calculator. All rights reserved.</p>
+</footer>
 
-      <h3>Is this tool free?</h3>
-      <p>Yes, this age calculator is completely free to use.</p>
-    </section>
-  </main>
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How accurate is Premkanth Age Calculator?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Premkanth Age Calculator provides accurate age calculation using date of birth and current date."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is Premkanth Age Calculator free?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, Premkanth Age Calculator is completely free."
+    }
+  }]
+}
+</script>
 
-  <footer>
-    <p>© 2025 Age Calculator. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
